@@ -11,8 +11,11 @@ public class Open12 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetKey("2"))
-			Application.LoadLevel("say1");
+		if (Input.GetKey ("2")) {
+			Application.LoadLevel ("say1");
+		}
+		if (Input.GetKey("escape")){
+			Application.Quit();}
 	
 	}
 }

@@ -11,8 +11,11 @@ public class Cont1go : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetKey("4"))
-			Application.LoadLevel("Cont1");
+		if (Input.GetKey ("4")) {
+			Application.LoadLevel ("Cont1");
+		}
+		if (Input.GetKey("escape")){
+			Application.Quit();}
 	
 	}
 }

@@ -77,6 +77,7 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\Open12.cs" />
      <Compile Include="Assets\Reticle.cs" />
+     <Compile Include="Assets\Startg.cs" />
      <Compile Include="Assets\flighttime.cs" />
      <Compile Include="Assets\flying.cs" />
      <Compile Include="Assets\pregame.cs" />

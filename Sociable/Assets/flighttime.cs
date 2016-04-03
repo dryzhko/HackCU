@@ -13,6 +13,10 @@ public class flighttime : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		StartCoroutine ("MyMethod");
+
+		if (Input.GetKey("escape")){
+			Application.Quit();}
+
 	
 	}
 }
